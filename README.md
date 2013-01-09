@@ -51,4 +51,4 @@ When running on embedded Jetty, open this address in your browser:
 
 Otherwise, copy the .war to your /webapps directory and go to whatever your standard Jetty deployment address is, appended with */undREST/msg*
 
-This was pieced together mostly from the [Guice Wiki][(ttp://code.google.com/p/google-guice/wiki/Servlets) and [this Randomized Sort posting](http://randomizedsort.blogspot.in/2011/05/using-guice-ified-jersey-in-embedded.html).
+This was pieced together mostly from the [Guice Wiki][(http://code.google.com/p/google-guice/wiki/Servlets) and [this Randomized Sort posting](http://randomizedsort.blogspot.in/2011/05/using-guice-ified-jersey-in-embedded.html).
