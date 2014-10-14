@@ -28,7 +28,7 @@ public class ServletConfig extends GuiceServletContextListener {
             @Override
             protected void configureServlets() {
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("com.sun.jersey.api.json.POJOMappingFeature","true");
+                //params.put("com.sun.jersey.api.json.POJOMappingFeature","true");
                 // Bindings
                 bind(MessageResource.class);
                 bind(MessageDao.class).to(MessageDaoImpl.class);
